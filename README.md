@@ -5,11 +5,12 @@
 ## Prerequisites
 This library uses [react-native-svg](https://github.com/react-native-community/react-native-svg) to render svg icons. Therefore this library needs to be installed & linked into your project to work.
 
-You can install it by,
+You can install it by:
 ```bash
 npm install --save react-native-svg
 react-native link react-native-svg
 ```
+Facing issues? [Click here](https://github.com/react-native-community/react-native-svg) to link it manually.
 
 ## Getting Started
 You can easily install [react-native-unicons](https://iconscout.com/unicons) using npm.
