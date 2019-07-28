@@ -1,7 +1,7 @@
 {
   "name": "@iconscout/react-native-unicons",
   "description": "Unicons - 1000+ vector icons as easy to use vector React Native Components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "scripts": {
     "generate": "node ./build/generate.js"
@@ -25,8 +25,6 @@
     "email": "support@iconscout.com"
   },
   "license": "Apache-2.0",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/Iconscout/react-native-unicons/issues"
   },
