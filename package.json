@@ -1,0 +1,47 @@
+{
+  "name": "@iconscout/react-native-unicons",
+  "description": "Unicons - 1000+ vector icons as easy to use vector React Native Components",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ./build/generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iconscout/react-native-unicons.git",
+    "baseUrl": "https://github.com/Iconscout/react-native-unicons"
+  },
+  "keywords": [
+    "react-native",
+    "unicons",
+    "react-native-unicons",
+    "react-native-icons",
+    "icons",
+    "iconscout",
+    "vector"
+  ],
+  "author": {
+    "name": "Iconscout",
+    "email": "support@iconscout.com"
+  },
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Iconscout/react-native-unicons/issues"
+  },
+  "homepage": "https://iconscout.com/unicons",
+  "peerDependencies": {
+    "react": "^16.5.0",
+    "react-native": ">=0.57.0-rc.0 <1.0.x",
+    "react-native-svg": "^9.5.3"
+  },
+  "devDependencies": {
+    "@iconscout/unicons": "^1.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "fs-plus": "^3.1.1",
+    "react": "^16.5.0",
+    "react-native": "^0.59.4",
+    "uppercamelcase": "^3.0.0"
+  }
+}
