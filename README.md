@@ -7,7 +7,7 @@ This library uses [react-native-svg](https://github.com/react-native-community/r
 
 You can install it by,
 ```bash
-npm install react-native-svg --save
+npm install --save react-native-svg
 react-native link react-native-svg
 ```
 
@@ -16,15 +16,9 @@ You can easily install [react-native-unicons](https://iconscout.com/unicons) usi
 ```bash
 npm install --save @iconscout/react-native-unicons
 ```
-Or using `yarn`
-```bash
-yarn add @iconscout/react-native-unicons
-```
-We're using [react-native-svg`](https://iconscout.com/unicons)
-
+## Usage
 ### Use individual icons
 ```js
-import React from 'react';
 import UilReact from '@iconscout/react-native-unicons/icons/uil-react'
 
 const App = () => {
@@ -41,7 +35,6 @@ You can customize icons as below:
 
 ### Usage as full Package
 ```js
-import React from 'react';
 import * as Unicons from '@iconscout/react-native-unicons';
 
 const App = () => {
@@ -52,8 +45,10 @@ export default App;
 ````
 
 ### More ways
-- [Icon Font](https://github.com/Iconscout/unicons)
+- [React-unicons](https://github.com/Iconscout/react-unicons)
 - [Vue-unicons](https://github.com/antonreshetov/vue-unicons) by [Anton Reshetov](https://github.com/antonreshetov)
+- [Vector SVGs](https://iconscout.com/unicons)
+- [Icon Font](https://github.com/Iconscout/unicons)
 
 ## Contributing
 We will be happy to have community support for Unicons. Feel free to fork and create pull requests. We have given a small roadmap above so that you can help us build these features.
@@ -64,5 +59,5 @@ We've created a thread at [Iconscout Community](https://discuss.iconscout.com/ne
 ## License
 Unicons are Open Source icons and licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). You're free to use these icons in your personal and commercial project. We would love to see the attribution in your app's **about** screen, but it's not mandatory.
 ```html
-React Unicons by <a href="https://iconscout.com/">Iconscout</a>
+React Native Unicons by <a href="https://iconscout.com/">Iconscout</a>
 ```
