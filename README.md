@@ -1,43 +1,68 @@
-# react-native-unicons
+# React Native Unicons
 
-## Getting started
+1000+ Pixel-perfect vector icons as React Native Components. These icons are designed by [Iconscout](https://iconscout.com).
 
-`$ npm install react-native-unicons --save`
+## Prerequisites
+This library uses [react-native-svg](https://github.com/react-native-community/react-native-svg) to render svg icons. Therefore this library needs to be installed & linked into your project to work.
 
-### Mostly automatic installation
+You can install it by,
+```bash
+npm install react-native-svg --save
+react-native link react-native-svg
+```
 
-`$ react-native link react-native-unicons`
+## Getting Started
+You can easily install [react-native-unicons](https://iconscout.com/unicons) using npm.
+```bash
+npm install --save @iconscout/react-native-unicons
+```
+Or using `yarn`
+```bash
+yarn add @iconscout/react-native-unicons
+```
+We're using [react-native-svg`](https://iconscout.com/unicons)
 
-### Manual installation
+### Use individual icons
+```js
+import React from 'react';
+import UilReact from '@iconscout/react-native-unicons/icons/uil-react'
 
+const App = () => {
+  return <UilReact size="140" color="#61DAFB" />
+};
 
-#### iOS
+export default App;
+````
 
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-unicons` and add `Unicons.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libUnicons.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
+You can customize icons as below:
+```html
+<Unicons.UilReact size="140" color="#61DAFB" />
+```
 
-#### Android
+### Usage as full Package
+```js
+import React from 'react';
+import * as Unicons from '@iconscout/react-native-unicons';
 
-1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.reactlibrary.UniconsPackage;` to the imports at the top of the file
-  - Add `new UniconsPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-unicons'
-  	project(':react-native-unicons').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-unicons/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-unicons')
-  	```
+const App = () => {
+  return <Unicons.UilReact />
+};
 
+export default App;
+````
 
-## Usage
-```javascript
-import Unicons from 'react-native-unicons';
+### More ways
+- [Icon Font](https://github.com/Iconscout/unicons)
+- [Vue-unicons](https://github.com/antonreshetov/vue-unicons) by [Anton Reshetov](https://github.com/antonreshetov)
 
-// TODO: What to do with the module?
-Unicons;
+## Contributing
+We will be happy to have community support for Unicons. Feel free to fork and create pull requests. We have given a small roadmap above so that you can help us build these features.
+
+### Icon Requests
+We've created a thread at [Iconscout Community](https://discuss.iconscout.com/new-topic?title=Icon%20Request:%20%3Cicon%3E&body=Hey%20there,%20%3Cicon%3E%20will%20be%20great%20fit%20for%20Unicons.%20I%20would%20love%20to%20use%20it!&category=Unicons&tags=requests) where you can request for new icons. And we'll be happy to design them in upcoming weeks.
+
+## License
+Unicons are Open Source icons and licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). You're free to use these icons in your personal and commercial project. We would love to see the attribution in your app's **about** screen, but it's not mandatory.
+```html
+React Unicons by <a href="https://iconscout.com/">Iconscout</a>
 ```
