@@ -1,7 +1,7 @@
 {
   "name": "@iconscout/react-native-unicons",
   "description": "Unicons - 1000+ vector icons as easy to use vector React Native Components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "generate": "node ./build/generate.js"
