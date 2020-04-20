@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilSquare = props => {
+const UilBitcoinSign = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -12,19 +12,19 @@ const UilSquare = props => {
       fill={color}
       {...otherProps}
     >
-      <Path d="M21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z" />
+      <Path d="M19,9a4,4,0,0,0-4-4V3a1,1,0,0,0-2,0V5H11V3A1,1,0,0,0,9,3V5H6A1,1,0,0,0,6,7H7V17H6a1,1,0,0,0,0,2H9v2a1,1,0,0,0,2,0V19h2v2a1,1,0,0,0,2,0V19a4,4,0,0,0,2.62-7A4,4,0,0,0,19,9Zm-4,8H9V13h6a2,2,0,0,1,0,4Zm0-6H9V7h6a2,2,0,0,1,0,4Z" />
     </Svg>
   );
 };
 
-UilSquare.propTypes = {
+UilBitcoinSign.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilSquare.defaultProps = {
+UilBitcoinSign.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilSquare;
+export default UilBitcoinSign;

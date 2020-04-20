@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilSquare = props => {
+const UilMouseAlt2 = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -12,19 +12,19 @@ const UilSquare = props => {
       fill={color}
       {...otherProps}
     >
-      <Path d="M21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z" />
+      <Path d="M12,2A7,7,0,0,0,5,9v6a7,7,0,0,0,14,0V9A7,7,0,0,0,12,2Zm5,13A5,5,0,0,1,7,15V9a5,5,0,0,1,4-4.9V12a1,1,0,0,0,2,0V4.1A5,5,0,0,1,17,9Z" />
     </Svg>
   );
 };
 
-UilSquare.propTypes = {
+UilMouseAlt2.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilSquare.defaultProps = {
+UilMouseAlt2.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilSquare;
+export default UilMouseAlt2;

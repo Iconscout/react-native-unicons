@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilSquare = props => {
+const UilLuggageCart = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -12,19 +12,19 @@ const UilSquare = props => {
       fill={color}
       {...otherProps}
     >
-      <Path d="M21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z" />
+      <Path d="M2,13.5v2a1,1,0,0,0,1,1H13a3,3,0,0,0,6,0h2a1,1,0,0,0,1-1v-8a3,3,0,0,0-3-3H9a3,3,0,0,0-3,3v7H4v-1a1,1,0,0,0-2,0Zm13,3a1,1,0,1,1,1,1A1,1,0,0,1,15,16.5Zm-7-6H20v4H18.22a3,3,0,0,0-4.44,0H8Zm0-3a1,1,0,0,1,1-1H19a1,1,0,0,1,1,1v1H8Z" />
     </Svg>
   );
 };
 
-UilSquare.propTypes = {
+UilLuggageCart.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilSquare.defaultProps = {
+UilLuggageCart.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilSquare;
+export default UilLuggageCart;
