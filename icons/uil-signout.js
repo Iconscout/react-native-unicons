@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilExit = props => {
+const UilSignout = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -17,14 +17,14 @@ const UilExit = props => {
   );
 };
 
-UilExit.propTypes = {
+UilSignout.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilExit.defaultProps = {
+UilSignout.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilExit;
+export default UilSignout;
