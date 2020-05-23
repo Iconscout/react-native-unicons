@@ -35,7 +35,7 @@
     "react-native-svg": "^9.5.3"
   },
   "devDependencies": {
-    "@iconscout/unicons": "^2.1.8",
+    "@iconscout/unicons": "^2.1.9",
     "cheerio": "^1.0.0-rc.3",
     "fs-plus": "^3.1.1",
     "react": "^16.5.0",
