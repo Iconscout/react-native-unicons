@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilHomeAlt = props => {
+const UilMicrosoft = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -12,19 +12,19 @@ const UilHomeAlt = props => {
       fill={color}
       {...otherProps}
     >
-      <Path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" />
+      <Path d="M2,22h9.5v-9.5H2V22z M2,11.5h9.5V2H2V11.5z M12.5,2v9.5H22V2H12.5z M12.5,22H22v-9.5h-9.5V22z" />
     </Svg>
   );
 };
 
-UilHomeAlt.propTypes = {
+UilMicrosoft.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilHomeAlt.defaultProps = {
+UilMicrosoft.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilHomeAlt;
+export default UilMicrosoft;
