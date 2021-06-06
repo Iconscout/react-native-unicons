@@ -1,5 +1,5 @@
 {
-  "name": "@iconscout/react-native-unicons",
+  "name": "@tillpos/react-native-unicons",
   "description": "Unicons - 1000+ vector icons as easy to use vector React Native Components",
   "version": "1.0.3",
   "main": "index.js",
@@ -8,8 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Iconscout/react-native-unicons.git",
-    "baseUrl": "https://github.com/Iconscout/react-native-unicons"
+    "url": "git+https://github.com/hitz-group/react-native-unicons.git",
+    "baseUrl": "https://github.com/hitz-group/react-native-unicons"
   },
   "keywords": [
     "react-native",
@@ -18,15 +18,12 @@
     "react-native-icons",
     "icons",
     "iconscout",
+    "tillpos",
     "vector"
   ],
-  "author": {
-    "name": "Iconscout",
-    "email": "support@iconscout.com"
-  },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Iconscout/react-native-unicons/issues"
+    "url": "https://github.com/hitz-group/react-native-unicons/issues"
   },
   "homepage": "https://iconscout.com/unicons",
   "peerDependencies": {
