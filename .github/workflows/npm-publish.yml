@@ -16,6 +16,6 @@ jobs:
       - name: Download & Build Icons
         run: npm ci --progress=false && npm run generate
       - name: Publish to NPM
-        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc && npm publish
+        run: npm publish
         env:
-          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
