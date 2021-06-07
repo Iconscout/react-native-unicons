@@ -11,6 +11,10 @@
     "url": "git+https://github.com/hitz-group/react-native-unicons.git",
     "baseUrl": "https://github.com/hitz-group/react-native-unicons"
   },
+  "author": {
+    "name": "Iconscout",
+    "email": "support@iconscout.com"
+  },
   "keywords": [
     "react-native",
     "unicons",
