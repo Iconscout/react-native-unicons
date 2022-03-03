@@ -1,15 +1,15 @@
 {
-  "name": "@iconscout/react-native-unicons",
-  "description": "Unicons - 1000+ vector icons as easy to use vector React Native Components",
-  "version": "1.0.3",
+  "name": "@farmo/react-native-unicons",
+  "description": "Farmo Fork of Unicons - 1000+ vector icons as easy to use vector React Native Components",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "generate": "node ./build/generate.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Iconscout/react-native-unicons.git",
-    "baseUrl": "https://github.com/Iconscout/react-native-unicons"
+    "url": "git+https://github.com/Farmo-Technologies/react-native-unicons.git",
+    "baseUrl": "https://github.com/Farmo-Technologies/react-native-unicons"
   },
   "keywords": [
     "react-native",
@@ -35,7 +35,7 @@
     "react-native-svg": "^9.5.3"
   },
   "devDependencies": {
-    "@iconscout/unicons": "^3.0.6",
+    "@iconscout/unicons": "^4.0.1",
     "cheerio": "^1.0.0-rc.3",
     "fs-plus": "^3.1.1",
     "react": "^16.5.0",
