@@ -30,8 +30,8 @@
   },
   "homepage": "https://iconscout.com/unicons",
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-native": ">=0.57.0-rc.0 <1.0.x",
+    "react": "^17.0.0",
+    "react-native": "^0.57.0",
     "react-native-svg": "^9.5.3"
   },
   "devDependencies": {
