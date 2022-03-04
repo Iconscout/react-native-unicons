@@ -31,7 +31,7 @@
   "homepage": "https://iconscout.com/unicons",
   "peerDependencies": {
     "react": "^17.0.0",
-    "react-native": "^0.57.0",
+    "react-native": "^0.67.0",
     "react-native-svg": "^9.5.3"
   },
   "devDependencies": {
