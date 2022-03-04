@@ -2,6 +2,10 @@
 #
 .DS_Store
 
+# Dist Folder
+#
+icons/
+
 # node.js
 #
 node_modules/
