@@ -1,10 +1,3 @@
-export function getIcon(iconName) {
-  const Icon = require_once(`./icons/${iconName}`)
-
-  return <Icon />
-}
-
-
 export { default as Uil0Plus } from './icons/uil-0-plus'
 export { default as Uil10Plus } from './icons/uil-10-plus'
 export { default as Uil12Plus } from './icons/uil-12-plus'
