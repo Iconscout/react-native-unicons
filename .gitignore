@@ -4,7 +4,8 @@
 
 # Dist Folder
 #
-icons/
+/generated/*
+/dist/*
 
 # node.js
 #

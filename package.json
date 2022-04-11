@@ -2,10 +2,18 @@
   "name": "@farmo/react-native-unicons",
   "description": "Farmo Fork of Unicons - 1000+ vector icons as easy to use vector React Native Components",
   "version": "1.1.17",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "dist/*"
+  ],
   "scripts": {
+    "clean:dist": "rm -rf ./dist",
+    "prepublish": "npm run build",
+    "build": "npm run generate && npm run clean:dist && tsc",
     "generate": "node ./build/generate.js",
-    "buildAndPublish": "node ./build/generate.js && npm publish --access private"
+    "buildAndPublish": "npm run build && npm publish --access private"
   },
   "repository": {
     "type": "git",
@@ -31,11 +39,14 @@
   },
   "homepage": "https://iconscout.com/unicons",
   "peerDependencies": {
+    
+    "@types/react": "^18.0.1",
     "react": "^17.0.0",
     "react-native": "^0.67.0",
     "react-native-svg": "^11.0.0"
   },
   "devDependencies": {
+    "@types/prop-types": "^15.7.5",
     "@iconscout/unicons": "^4.0.1",
     "cheerio": "^1.0.0-rc.3",
     "fs-plus": "^3.1.1",
