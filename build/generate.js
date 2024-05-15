@@ -31,7 +31,7 @@ import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
 const ${name} = props => {
-  const { color, size, ...otherProps } = props;
+  const { color = "currentColor", size = "24", ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -48,11 +48,6 @@ const ${name} = props => {
 ${name}.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-${name}.defaultProps = {
-  color: "currentColor",
-  size: "24"
 };
 
 export default ${name};

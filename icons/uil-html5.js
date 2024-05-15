@@ -3,7 +3,7 @@ import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
 const UilHtml5 = props => {
-  const { color, size, ...otherProps } = props;
+  const { color = "currentColor", size = "24", ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -20,11 +20,6 @@ const UilHtml5 = props => {
 UilHtml5.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-UilHtml5.defaultProps = {
-  color: "currentColor",
-  size: "24"
 };
 
 export default UilHtml5;
