@@ -3,7 +3,7 @@ import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
 const UilCompressLines = props => {
-  const { color, size, ...otherProps } = props;
+  const { color = "currentColor", size = "24", ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -22,9 +22,6 @@ UilCompressLines.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilCompressLines.defaultProps = {
-  color: "currentColor",
-  size: "24"
-};
+
 
 export default UilCompressLines;

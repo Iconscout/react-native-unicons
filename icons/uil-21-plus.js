@@ -3,7 +3,7 @@ import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
 const Uil21Plus = props => {
-  const { color, size, ...otherProps } = props;
+  const { color = "currentColor", size = "24", ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -20,11 +20,6 @@ const Uil21Plus = props => {
 Uil21Plus.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-Uil21Plus.defaultProps = {
-  color: "currentColor",
-  size: "24"
 };
 
 export default Uil21Plus;

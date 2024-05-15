@@ -3,7 +3,7 @@ import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
 const UilAdjustCircle = props => {
-  const { color, size, ...otherProps } = props;
+  const { color = "currentColor", size = "24", ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -20,11 +20,6 @@ const UilAdjustCircle = props => {
 UilAdjustCircle.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-UilAdjustCircle.defaultProps = {
-  color: "currentColor",
-  size: "24"
 };
 
 export default UilAdjustCircle;

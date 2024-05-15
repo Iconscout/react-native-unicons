@@ -3,7 +3,7 @@ import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
 const UilHorizontalDistributionCenter = props => {
-  const { color, size, ...otherProps } = props;
+  const { color = "currentColor", size = "24", ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -22,9 +22,6 @@ UilHorizontalDistributionCenter.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilHorizontalDistributionCenter.defaultProps = {
-  color: "currentColor",
-  size: "24"
-};
+
 
 export default UilHorizontalDistributionCenter;
