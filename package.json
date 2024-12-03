@@ -1,7 +1,7 @@
 {
   "name": "@iconscout/react-native-unicons",
   "description": "Unicons - 4,500+ vector icons as easy to use vector React Native Components",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "main": "index.js",
   "scripts": {
     "generate": "node ./build/generate.js"
@@ -30,7 +30,7 @@
   },
   "homepage": "https://iconscout.com/unicons",
   "peerDependencies": {
-    "react": "^16.5.0",
+    "react": ">=16.8.0 <19.0.0",
     "react-native": ">=0.57.0-rc.0 <1.0.x",
     "react-native-svg": "^9.5.3"
   },
