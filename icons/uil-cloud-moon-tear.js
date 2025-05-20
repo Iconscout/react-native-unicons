@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilForecastcloudMoonTear = props => {
+const UilCloudMoonTear = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -17,14 +17,14 @@ const UilForecastcloudMoonTear = props => {
   );
 };
 
-UilForecastcloudMoonTear.propTypes = {
+UilCloudMoonTear.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilForecastcloudMoonTear.defaultProps = {
+UilCloudMoonTear.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilForecastcloudMoonTear;
+export default UilCloudMoonTear;

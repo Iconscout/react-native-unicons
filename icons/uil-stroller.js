@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilBabyCarriage = props => {
+const UilStroller = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -17,14 +17,14 @@ const UilBabyCarriage = props => {
   );
 };
 
-UilBabyCarriage.propTypes = {
+UilStroller.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilBabyCarriage.defaultProps = {
+UilStroller.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilBabyCarriage;
+export default UilStroller;
